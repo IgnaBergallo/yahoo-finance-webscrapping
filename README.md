@@ -1,21 +1,13 @@
 # yahoo-finance-webscrapping
-Project Title
-One Paragraph of project description goes here
-
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Yahoo finance webscrapping
+This project was initiated from a class I took at SFU. My professor has tradition to gather students stock recommendations and invest in the best of them. And how we find a good stock to invest in? That was taught in class. Since there were so many stocks out there and I don't have any preference over any, I want to use programming to get the MVP.
 
 Prerequisites
-What things you need to install the software and how to install them
+python 2 or 3
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+To run the file (main.py), you have to insert a text file that include all the tickers you want and change the name of variable (fn) to the name of the file you just inserted. 
 
-Say what the step will be
 
-Give the example
-And repeat
 
 until finished
 End with an example of getting some data out of the system or using it for a little demo
