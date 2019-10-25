@@ -122,7 +122,7 @@ for i in range(1,len(ticker)):
     #print(result)
     if ((result[0] <= 1) and ((result[5]>0.2) or (result[6]>0.2) or (result[7]>0.2))):
         ans.append(result)
-        numpy.savetxt("%s.csv" % fn, ans, delimiter=",", fmt='%s')
+        numpy.savetxt("%s.csv" % fn, ans, delimiter=",",header="beta_result,forward_PE_result,dy_result,PB_result,growth_result,MCR1,MCR2,MCR3", fmt='%s')
         #print(result[5],result[6],result[7])
 
 #print(ans)
